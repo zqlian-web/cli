@@ -1,4 +1,4 @@
-let utils = require('@zqlian/utils')
+let utils = require('@zqlianweb/utils')
 let useActions = ['init', 'update', 'upgrade']
 async function getAction (action) {
   if (action && useActions.indexOf(action)) {
