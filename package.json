@@ -1,0 +1,31 @@
+{
+  "name": "@zqlian/cli",
+  "version": "1.0.0",
+  "description": "zqlian cli",
+  "main": "index.js",
+  "scripts": {
+    "test": "zqlian"
+  },
+  "bin": {
+    "zqlian": "./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zqlian-web/cli.git"
+  },
+  "keywords": [
+    "zqlian",
+    "cli"
+  ],
+  "author": "wuyun",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zqlian-web/cli/issues"
+  },
+  "homepage": "https://github.com/zqlian-web/cli#readme",
+  "dependencies": {
+    "commander": "^6.0.0",
+    "inquirer": "^7.3.3",
+    "@zqlian/utils": "^1.0.0"
+  }
+}
