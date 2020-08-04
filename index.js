@@ -33,7 +33,7 @@ async function start () {
   let module = program.args[1]
   // 进行 module 初始化
   module = await moduleModule.getModule(module)
-  let useModule = require('@zqlian/' + module)
+  let useModule = require('@zqlianweb/' + module)
   if (useModule.apply) await useModule.apply(action, program.more)
   console.log('执行完成！')
 }

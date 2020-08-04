@@ -1,6 +1,6 @@
 {
   "name": "@zqlianweb/cli",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "zqlian cli",
   "main": "index.js",
   "scripts": {
